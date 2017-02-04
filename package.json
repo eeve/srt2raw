@@ -1,0 +1,23 @@
+{
+  "name": "srt2raw",
+  "version": "1.0.0",
+  "description": "Convert subtitle file (utf-8) to raw text.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./bin/srt2raw -f './test/Westworld S01E10.srt' -o ./test/dist -e .md -l -t"
+  },
+  "bin": {
+    "srt2raw": "./bin/srt2raw"
+  },
+  "keywords": [
+    "srt2raw", "srt2txt", "srt", "convert srt", "srt raw"
+  ],
+  "engines": {
+    "node": ">= 0.9"
+  },
+  "author": "eeve",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.9.0"
+  }
+}
