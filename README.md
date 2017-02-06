@@ -36,7 +36,7 @@ $ srt2raw -h
 
 ## Tests
 ```bash
-node run test
+npm run test
 ```
 
 ## License
